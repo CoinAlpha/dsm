@@ -128,6 +128,21 @@ const extend = {
       },
     },
     dark: {
+      badges: {
+        default: {
+          bg: { active: "#484d51ff", enabled: "#282c2fff", hover: "#3e4347ff" },
+          border: {
+            active: "#484d51ff",
+            enabled: "#282c2fff",
+            hover: "#3e4347ff",
+          },
+          text: {
+            active: "#dfe1e2ff",
+            enabled: "#dfe1e2ff",
+            hover: "#f1f3f3ff",
+          },
+        },
+      },
       "body-bg": "#151819ff",
       "body-border": "#3e4347ff",
       buttons: {
@@ -307,6 +322,7 @@ const extend = {
         },
       },
       "text-link": {
+        bg: { active: "#244266ff", hover: "#1d3653ff" },
         text: {
           active: "#2d80e8ff",
           enabled: "#318dffff",
@@ -322,6 +338,21 @@ const extend = {
       "window-border": "#323639ff",
     },
     light: {
+      badges: {
+        default: {
+          bg: { active: "#c9cdcfff", enabled: "#f1f3f3ff", hover: "#dfe1e2ff" },
+          border: {
+            active: "#c9cdcfff",
+            enabled: "#f1f3f3ff",
+            hover: "#dfe1e2ff",
+          },
+          text: {
+            active: "#323639ff",
+            enabled: "#323639ff",
+            hover: "#1e2224ff",
+          },
+        },
+      },
       "body-bg": "#fafafaff",
       "body-border": "#e9ebecff",
       buttons: {
@@ -501,6 +532,7 @@ const extend = {
         },
       },
       "text-link": {
+        bg: { active: "#e0efffff", hover: "#ebf4ffff" },
         text: {
           active: "#2d80e8ff",
           enabled: "#318dffff",
@@ -526,7 +558,7 @@ const extend = {
     solid: "#f1f3f3ff",
   },
   spacing: {
-    xxs: "4px",
+    xxs: "8px",
     xs: "16px",
     sm: "24px",
     md: "32px",
